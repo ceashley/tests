@@ -1,0 +1,40 @@
+<Job>
+	<Job_Id>60445.support-mpi</Job_Id>
+	<Job_Name>STDIN</Job_Name>
+	<Job_Owner>jbooth@support-mpi</Job_Owner>
+	<job_state>Q</job_state>
+	<queue>batch</queue>
+	<server>support-mpi</server>
+	<Checkpoint>u</Checkpoint>
+	<ctime>1476291671</ctime>
+	<Error_Path>support-mpi:/home/jbooth/STDIN.e60445</Error_Path>
+	<Hold_Types>n</Hold_Types>
+	<Join_Path>n</Join_Path>
+	<Keep_Files>n</Keep_Files>
+	<Mail_Points>a</Mail_Points>
+	<mtime>1476291671</mtime>
+	<Output_Path>support-mpi:/home/jbooth/STDIN.o60445</Output_Path>
+	<Priority>0</Priority>
+	<qtime>1476291671</qtime>
+	<Rerunable>True</Rerunable>
+	<Resource_List>
+		<neednodes>1</neednodes>
+		<nodect>1</nodect>
+		<nodes>1</nodes>
+		<pmem>768mb</pmem>
+		<procs>1</procs>
+		<walltime>00:00:35</walltime>
+	</Resource_List>
+	<substate>10</substate>
+	<Variable_List>PBS_O_QUEUE=batch,PBS_O_HOME=/home/jbooth,PBS_O_LOGNAME=jbooth,PBS_O_PATH=/opt/nitro-devtools-llvm/bin:/opt/nitro-devtools-gcc/bin:/opt/nitro-devtools-cmake/bin:/opt/mam/bin:/opt/src/moab/9.0.1/bin:/opt/8.1.0/bin:/usr/lib64/qt-3.3/bin:/opt/nitro-devtools-llvm/bin:/opt/nitro-devtools-gcc/bin:/opt/nitro-devtools-cmake/bin:/opt/mam/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin,PBS_O_MAIL=/var/spool/mail/root,PBS_O_SHELL=/bin/bash,PBS_O_LANG=en_US.UTF-8,PBS_O_WORKDIR=/home/jbooth,PBS_O_HOST=support-mpi,PBS_O_SERVER=support-mpi</Variable_List>
+	<euser>jbooth</euser>
+	<egroup>jbooth</egroup>
+	<queue_rank>2055</queue_rank>
+	<queue_type>E</queue_type>
+	<etime>1476291671</etime>
+	<submit_args>-l walltime=35 -l procs=1</submit_args>
+	<fault_tolerant>False</fault_tolerant>
+	<job_radix>0</job_radix>
+	<submit_host>support-mpi</submit_host>
+	<request_version>1</request_version>
+</Job>

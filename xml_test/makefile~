@@ -1,0 +1,10 @@
+test: sauce.o jsoncpp.o
+	g++ sauce.o jsoncpp.o -o main -g
+	
+jsoncpp.o: json/json-forwards.h json/json.h jsoncpp.cpp
+	g++ -std=c++11 jsoncpp.cpp -c -g
+	
+sauce.o: json/json-forwards.h json/json.h header.h sauce.cpp
+	g++ -std=c++11 sauce.cpp -c -g
+
+

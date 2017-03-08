@@ -1,0 +1,17 @@
+<queue>
+<modified>0</modified>
+<type>1</type>
+<create_time>0</create_time>
+<modify_time>0</modify_time>
+<name>batch</name>
+<attributes>
+<queue_type>Execution</queue_type>
+<total_jobs>19957</total_jobs>
+<state_count>Transit:0 Queued:0 Held:0 Waiting:0 Running:0 Exiting:0 Complete:19957</state_count>
+<resources_default> <walltime>300</walltime>
+</resources_default>
+<mtime>1480443413</mtime>
+<enabled>1</enabled>
+<started>1</started>
+</attributes>
+</queue>

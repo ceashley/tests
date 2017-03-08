@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<queue>
+  <modified>0</modified>
+  <type>1</type>
+  <create_time>0</create_time>
+  <modify_time>0</modify_time>
+  <name>batch</name>
+  <attributes>
+    <queue_type>Execution</queue_type>
+    <total_jobs>1</total_jobs>
+    <state_count>Transit:0 Queued:1 Held:0 Waiting:0 Running:0 Exiting:0 Complete:0</state_count>
+    <resources_default>
+      <walltime>100</walltime>
+    </resources_default>
+    <mtime>1483998562</mtime>
+    <enabled>false</enabled>
+    <started>false</started>
+    <ghost_queue>false</ghost_queue>
+  </attributes>
+</queue>
